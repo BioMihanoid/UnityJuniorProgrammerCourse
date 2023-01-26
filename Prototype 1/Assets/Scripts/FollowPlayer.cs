@@ -7,7 +7,8 @@ public class FollowPlayer : MonoBehaviour
     public GameObject player;
     public Camera camera1;
     public Camera camera2;
-    public Vector3 offset = new Vector3(0, 2.5f, 2);
+    [SerializeField]
+    Vector3 offset = new Vector3(0, 2.5f, 2);
     
     void Start()
     {
